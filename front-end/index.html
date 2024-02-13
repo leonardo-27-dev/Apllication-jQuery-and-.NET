@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tasks System</title>
+    <link rel="icon" type="image/png" href="./icon/nox.png" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="./notify/notify.min.js"></script>
+    <script src="./auth/auth-guard.js"></script>
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left">
+        <img src="./icon/nox-login.png" class="img-login" alt="Nox Image" />
+      </div>
+      <div class="right">
+        <div class="tabs">
+          <ul>
+            <li class="register_li">Register</li>
+            <li class="login_li">Login</li>
+          </ul>
+        </div>
+
+        <div class="register">
+          <div class="input_field">
+            <input type="text" placeholder="Username" class="input" />
+          </div>
+          <div class="input_field">
+            <input type="text" placeholder="E-mail" class="input" />
+          </div>
+          <div class="input_field">
+            <input type="password" placeholder="Password" class="input" />
+          </div>
+          <div class="btn"><a href="#">Register</a></div>
+        </div>
+
+        <div class="login">
+          <div class="input_field">
+            <input type="text" placeholder="E-mail" class="input" />
+          </div>
+          <div class="input_field">
+            <input type="password" placeholder="Password" class="input" />
+          </div>
+          <div class="btn"><a href="#">Login</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
