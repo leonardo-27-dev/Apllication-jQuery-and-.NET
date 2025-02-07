@@ -4,7 +4,7 @@
 Para inciarmos vamos realizar o clone do nosso front-end JavaScript
 
 ```bash
-$ git clone git@github.com:leonardo-27-dev/nox-teste.git
+$ git clone git@github.com:leonardo-27-dev/Apllication-jQuery-and-.NET.git
 $ cd front-end   
 ```
 
